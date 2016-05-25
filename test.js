@@ -53,7 +53,7 @@ driver.wait(function() {
 	.then(function(text) {
     	console.log(text === '王菲&鄧麗君 (Faye Wong & Teresa Teng)');
 	});
-})
+});
 
 /*Test case 3*/
 driver.wait(function() {
@@ -92,11 +92,11 @@ driver.wait(function() {
 }, 5000)
 .then(function() {
 	driver.findElement(By.css('#player > .title > h3 > a'))
-		.getText()
-		.then(function(text) {
+	.getText()
+	.then(function(text) {
 		if (text !== tempCheckSong)
 			console.log('Success!');
-		});
+	});
 });
 
 /**/
