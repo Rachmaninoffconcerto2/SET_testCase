@@ -1,27 +1,14 @@
 {
-  "name": "hero",
+  "name": "test",
   "version": "1.0.0",
-  "description": "Show heros and their most repeated word in the descriptions.",
-  "main": "hero.js",
+  "description": "To build test cases for KKBOX website.",
+  "main": "test.js",
   "dependencies": {
-    "babyparse": "^0.4.5",
-    "body-parser": "^1.15.1",
-    "express": "^4.13.4",
-    "gulp": "^3.9.1",
-    "mongoose": "^4.4.16",
-    "router": "^1.1.4"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-minify": "0.0.11",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.3",
-    "gulp-util": "^3.0.7",
     "selenium-webdriver": "^2.53.2"
   },
   "scripts": {
-    "gulp": "gulp"
   },
   "author": "huang",
   "license": "ISC"
