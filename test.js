@@ -9,7 +9,7 @@ var driver = new webDriver.Builder()
 
 /*Test case 1 & before step*/
 driver.get('https://www.kkbox.com/play/');
-driver.findElement(By.id('uid')).sendKeys('findmetest01@gmail.com');
+driver.findElement(By.id('uid')).sendKeys('');
 driver.findElement(By.id('pwd')).sendKeys('');
 driver.findElement(By.id('login-btn')).click();
 driver.wait(function() {
